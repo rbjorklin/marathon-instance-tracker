@@ -29,5 +29,5 @@ Use something like [go-zkCli](https://github.com/go-zkcli/zkcli) to get the valu
 
 ## Credit where credit is due
 
-* (This article)[http://thenewstack.io/make-a-restful-json-api-go/] by Cory Lanou helped me get started with creating a REST service.
-* (This article)[https://mmcgrana.github.io/2014/05/getting-started-with-zookeeper-and-go.html] by Mark McGranaghan helped me get started with using Zookeper from Go.
+* [This article](http://thenewstack.io/make-a-restful-json-api-go/) by Cory Lanou helped me get started with creating a REST service.
+* [This article](https://mmcgrana.github.io/2014/05/getting-started-with-zookeeper-and-go.html) by Mark McGranaghan helped me get started with using Zookeper from Go.
