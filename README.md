@@ -24,6 +24,7 @@ Use something like [go-zkCli](https://github.com/go-zkcli/zkcli) to get the valu
 
 * Sort out a working docker container
 * Make sure it handles situations where znodes are locked
+* Figure out a way to handle upgrade situations where momentarily INSTANCES is INSTANCES+1
 * Clean up the messy code
 * Write some tests
 

@@ -117,8 +117,8 @@ func removeInactiveIds(contents string, appId string) string {
 			contents = strings.Replace(contents, id, "NA", 1)
 		}
 	}
-	if len(strings.Split(contents, ",")) > inst {
-		contents = strings.Join(strings.Split(contents, ",")[:inst], ",")
+	if len(strings.Split(contents, ",")) > inst + 1 {
+		contents = strings.Join(strings.Split(contents, ",")[:inst + 1], ",")
 	}
 	log.Print("Returned: ", contents)
 	return contents
